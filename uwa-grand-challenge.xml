@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<mavlink>
+    <version>0</version>
+    <messages>
+        <message id="0" name="SENSOR_WAVELENGTHS">
+            <description> 5 Wavelengths from the IR Sensor </description>
+            <field type="float" name="wavelength_1">Wavelength 1</field>
+            <field type="float" name="wavelength_2">Wavelength 2</field>
+            <field type="float" name="wavelength_3">Wavelength 3</field>
+            <field type="float" name="wavelength_4">Wavelength 4</field>
+            <field type="float" name="wavelength_5">Wavelength 5</field>
+        </message>
+
+        <message id="1" name="LASER_RANGEFINDER_READINGS">
+            <description> Laser rangefinder readings </description>
+            <field type="float" name="rangefinder_reading"> Rangefinder reading</field>
+        </message>
+
+        <message id="2" name="CAMERA_MODE">
+            <description> Camera mode (Infrared,Picture, Picture in Picture) </description>
+            <field type="int" name="camera mode"> Camera mode </field>
+        </message>
+    </messages>
+</mavlink>
